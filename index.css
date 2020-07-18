@@ -1,0 +1,6 @@
+::selection { background: yellow; }
+
+body{
+    background-image: linear-gradient(to right,	#0F2027,#203A43,#2C5364);
+    color: whitesmoke;
+}
