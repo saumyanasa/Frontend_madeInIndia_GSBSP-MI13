@@ -11,10 +11,10 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 
-<body>
+<body class="">
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Hamara Utpaad</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="Hamara Utpaad.png" style="height: 2rem"> Hamara Utpaad</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +24,7 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Indian Campaigns</a>
@@ -36,14 +36,35 @@
         </div>
       </nav>
 
-
-      <div class="container-fluid"> 
-          <div class="row">
-              <div class="col">
-                <p>jnuxehfjnjxnk</p>
-              </div>
-          </div>
+      <!-- Banner Image -->
+      <div id="home" class="container-fluid vw-100 p-0">
+          <img src="Light Colors Cooking Website Facebook Cover.png" style="width:100%;height: auto;">
       </div>
+
+
+      <!-- about section -->
+     <section id="about" class="container-fluid flex vw-100 mt-4 justify-content-around p-4 align-items-center">
+         <span id="info" class="rectangle-border">
+            <h4 class="font-weight-bold section-heading zoom">WHO WE ARE?</h4>
+            <div class="divider"> </div>
+            <p>We are a content writing firm that informs people about the various SWADESHI alternatives of the VIDESHI brands </p>
+         </span>
+         <span id="info-img" class="rectangle-border">
+             <!-- <img src="Hamara Utpaad.png"> -->
+         </span>
+     </section>
+
+
+      <!-- <div id="about" class="container-fluid mt-2 bg-light px-2" >
+            <div class="d-flex flex-wrap">
+                <div id="info" class="col-6 p-0">
+                    <h4 class="font-weight-bold">WHO WE ARE?</h4>
+                    <div class="divider"> </div>
+                    <p>We are a content writing firm that informs people about the various SWADESHI alternatives of the VIDESHI brands </p>
+                </div>
+                <div class="col-6"><img src="Hamara Utpaad.png" class="h-25"></div>
+            </div>
+      </div> -->
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
