@@ -11,9 +11,9 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 
-<body class="">
+<body class="container-fluid">
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top white-shadow">
         <a class="navbar-brand" href="#"><img src="Hamara Utpaad.png" style="height: 2rem"> Hamara Utpaad</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,33 +30,60 @@
               <a class="nav-link" href="#indian">Indian Campaigns</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#" >Products</a>
+              <a class="nav-link " href="#products" >Swadeshi Products</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#contact" >Contact Us</a>
+              </li>
           </ul>
         </div>
       </nav>
 
+      <!-- Home Banner -->
+      <div class="section-banner container-fluid banner-shadow p-0" id="home">
+            <img src="./Banners/1.png" style="height: auto;width:100%;">
+      </div>
+
       <!-- Banner Image -->
-      <div id="home" class="container vw-100 p-0 mt-20">
+      <div id="home-content" class="container vw-100 p-0 mt-2">
           <img src="Light Colors Cooking Website Facebook Cover.png" style="width:100%;height: auto;">
       </div>
 
 
-      <!-- about section -->
-     <section id="about" class="container flex vw-100 mt-4 justify-content-around p-4 align-items-center section-shadow border-orange">
-         <span id="info" class="rectangle-border">
-            <h4 class="font-weight-bold section-heading zoom">WHO WE ARE?</h4>
-            <div class="divider"> </div>
-            <p class="p-3">As times are changing and so has the trade wars between countries which is at an all time high with sudden on-charge of making products in India. We are proud to say that we as a content writing firm which informs people, specially Indians on the various products which are being manufactured here in India. A detailed list which promotes Indian brands, as change will not come if we wait for some other time or someone else. Be the change. </p>
-         </span>
-         <span id="info-img" class="rectangle-border zoom-image">
-             <!-- <img src="Hamara Utpaad.png"> -->
-         </span>
+
+      <!-- About Banner -->
+      <div class="section-banner container-fluid mt-2 banner-shadow p-0" id="about">
+        <img src="./Banners/2.png" style="height: min-content;width:100%;">
+        </div>
+
+     <!-- about section -->
+     <section class="container flex vw-100 mt-2 p-4 bg-blue ">
+        <div class="card-deck">
+            <div class="card rectangle-border">
+              <img src="./Hamara Utpaad.png" class="card-img-top" alt="logo">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #5433d6;">WHAT WE DO</h5>
+                <p class="card-text">As times are changing and so has the trade wars between countries which is at an all time high with sudden on-charge of making products in India. We are proud to say that we as a content writing firm which informs people, specially Indians on the various products which are being manufactured here in India.</p>
+              </div>
+            </div>
+            <div class="card rectangle-border">
+              <img src="./ECONOMY.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #5433d6;">OUR GOALS</h5>
+                <p class="card-text">A detailed list which promotes Indian brands compromising of everyday items such as toothpastes and footware to big car manufacturing industries. As change will not come if we wait for some other time or someone else. Be the change.</p>
+              </div>
+            </div>
+          </div>
      </section>
 
 
+     <!-- Indian Campaigns Banner -->
+     <div class="section-banner container-fluid mt-2 banner-shadow p-0" id="indian">
+        <img src="./Banners/3.png" style="height: min-content;width:100%;">
+     </div>
+
      <!-- Indian Campaigns -->
-     <section id="indian" class="container mt-4 p-4 border-orange section-shadow">
+     <section class="container mt-2 p-4 bg-blue">
         <div class="card-deck ">
             <div class="card rectangle-border">
               <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Make_In_India.png" class="card-img-top" alt="The lion">
@@ -76,14 +103,322 @@
      </section>
 
 
-     <!-- Products  -->
-     <section id="products">
+     <!-- Swadeshi Products Banner -->
+     <div class="section-banner container-fluid mt-2 banner-shadow p-0" id="products">
+        <img src="./Banners/4.png" style="height: min-content;width:100%;">
+    </div>
+
+     <!-- Swadeshi Products  -->
+     <section id="products-content" class="bg-blue" >
+        <div class="d-flex flex-row flex-wrap container mt-2 p-4">
+
+            <!-- Rose Sharbat -->
+            <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.linsfood.com/wp-content/uploads/2018/05/Cheats-Rose-Syrup.jpg" alt="Rose Sharbat" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Rose Sharbat</h1> 
+                    <p>Made from real rose petals, this sharbat is ideally blends with puddings and ice-creams.</p> 
+                    <p>Replacing cold drinks like <i>Pepsi</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Divya Peya -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.netmeds.com/images/product-v1/600x600/801581/patanjali_divya_peya_mint_flavour_powders_100_gm_0.jpg" alt="Divya Peya" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Divya Peya</h1> 
+                    <p>Patanjali Divya Peya is an Ayurvedic substitute for tea. It combines the goodness of herbs and plant products.</p> 
+                    <p>Replacing tea brands like <i>Lipton</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Topaz Blade -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://image3.mouthshut.com/images/imagesp/925004833s.jpg" alt="topaz blade" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Topaz Blade</h1> 
+                    <p>The Topaz platinum's are made from stainless steel and with platinum "sputtered" edges to help maintain sharpness.</p> 
+                    <p>Replacing brands like <i>Gillete</i></p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Micromax Phones -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://i.gadgets360cdn.com/products/large/1558090926_635_micromax_ione_db.jpg" alt="micromax phone" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Micromax</h1> 
+                    <p>Micromax is an Indian Smartphone manufacturer established as an IT software company operating in the embedded devices domain.</p> 
+                    <p>Replacing brands like <i>Samsung</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bajaj Bikes -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://cdn.autoportal.com/bp-v3/img/models/88/9/bajaj-pulsar-1464785923.jpg" alt="Bajaj bikes" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Bajaj Bikes</h1> 
+                    <p>Bajaj Auto Limited is an Indian global two-wheeler company manufacturing company based in Pune, Maharashtra.</p> 
+                    <p>Replacing brands like <i>Honda</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Paragon Footwear -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpd1QksB7wFOO7tTUo5Sn1p_3xPZOCV7PbIg&usqp=CAU" alt="Paragon Footwear" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Paragon Footwear</h1> 
+                    <p>The Paragon Group of companies is considered No.1 with the promise of long-lasting footwear.</p> 
+                    <p>Replacing brands like <i>Reebok</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Titan Watches -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpIEFdeeKQbU7GsJHmeYAt5vA3nzkYNuVOzQ&usqp=CAU" alt="Titan Watches" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Titan Watches</h1> 
+                    <p>Titan Company Limited mainly manufactures fashion accessories such as watches, jewellery and eyewear.</p> 
+                    <p>Replacing brands like <i>Chopard</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Emami Boroplus -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://5.imimg.com/data5/EK/EI/MY-65184658/boroplus-antiseptic-cream-500x500.jpg" alt="Emami Boroplus" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Emami Boroplus</h1> 
+                    <p>Emami Limited is a leading and admired personal products and healthcare company from India.</p> 
+                    <p>Replacing brands like <i>Fair & Lovely</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Natraj Pens -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLFNhIIsaTsnW4_DmBvxJkrwYwUGrTf6bHOg&usqp=CAU" alt="Natraj Pens" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Natraj Pens</h1> 
+                    <p>Hindustan Pencils Pvt. Ltd. makes writing implements under the brands Nataraj and Apsara, and claims to be the largest pencil manufacturer in India. </p> 
+                    <p>Replacing brands like <i>Rotomac</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HCL Computers -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRonfug-_gcmEEPJ3EYLxoTe2b0v-dBsh_Wzw&usqp=CAU" alt="HCL Computers" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">HCL Computers</h1> 
+                    <p>HCL Technologies Limited, is an Indian multinational information technology service and consulting company headquartered in Noida, Uttar Pradesh. </p> 
+                    <p>Replacing brands like <i>Dell</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Flipkart -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScRKeXph8xAOLHypq_Xug3ylJJbk98AbYv6g&usqp=CAU" alt="Flipkart" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Flipkart</h1> 
+                    <p>India's biggest online store for Mobiles, Fashion (Clothes/Shoes), Electronics, Home Appliances, Books, Furniture, Jewelry, Sporting goods.</p> 
+                    <p>Replacing brands like <i>Ebay</i></p>
+                  </div>
+                </div>
+              </div>
+           
+              <!-- TATA Cars -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3pnoSbd8HmXpYlyJ7PwljDo99dFczN84D3A&usqp=CAU" alt="TATA Cars" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">TATA Cars</h1> 
+                    <p>Tata Motors Limited, is an Indian multinational automotive manufacturing company headquartered in Mumbai, Maharashtra, India. </p> 
+                    <p>Replacing brands like <i>Ford</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Nirma Washing Powder -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHoDcQqH0UWU0KPzozU1w2GBnfM2JOCsBzmA&usqp=CAU" alt="Nirma Washing Powder" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Nirma Washing Powder</h1> 
+                    <p>Nirma envisioned the vast Fabric Wash market segment and sensed a tremendous potential therein. </p> 
+                    <p>Replacing brands like <i>Arial</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bikano Namkeen -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPxqXuq7kJLnnNbur7uQ_-wKb0HXo0vSyiOA&usqp=CAU" alt="Bikano Namkeen" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Bikano Namkeen</h1> 
+                    <p>Bikano is one of the top Namkeen and snack brands in India. They offer sweets, snacks, syrups and many more products.</p> 
+                    <p>Replacing brands like <i>Uncle Chips</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rasna -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAf-0r6tNvScTxJn9yehqE_DJ_vv3GbqDIhA&usqp=CAU" alt="Rasna" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Rasna</h1> 
+                    <p>Rasna Instant Drink in powder form, is pre-sweetened and enriched.</p> 
+                    <p>Replacing brands like <i>Brookebond(Kissan)</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Raymond Clothing -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTu1OYHGDMaMH5bYgDeA42vrLALobpror_gbg&usqp=CAU" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Raymond Clothing</h1> 
+                    <p>Raymond Group produces suiting fabric, with a capacity of producing 31 million meters of wool and wool-blended fabrics.</p> 
+                    <p>Replacing brands like <i>Wrangler</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Amul Milk -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9-lNmPrBGnk9pkh2gFz9JdUNtqmrxgpaZ6w&usqp=CAU" alt="Amul Milk" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Amul Milk</h1> 
+                    <p>It is a cooperative brand managed by a cooperative body, which today is jointly owned by 3.6 million milk producers in Gujarat.</p> 
+                    <p>Replacing brands like <i>Everyday Milk</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Santoor Soap -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3zrLOoUAyfcilspW3HwJRWRC2cpkTMKbGWg&usqp=CAU" alt="Santoor Soap" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Santoor Soap</h1> 
+                    <p>Santoor has grown from a traditional soap to a modern beauty soap that carries the secret of younger looking skin.</p> 
+                    <p>Replacing brands like <i>Johnson & Johnson</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Himalaya Shampoo -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRV3KfvLKRke6USl6eqi2eItzVtRCZ0M0DPnA&usqp=CAU" alt="Himalaya Shampoo" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Himalaya Shampoo</h1> 
+                    <p>Himalaya was to bring Ayurveda to society in a contemporary form and to unravel the mystery behind the 5000 year old medicinal practices.</p> 
+                    <p>Replacing brands like <i>Sunsilk</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Nippo Battery -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAYW3hPNPlX8kmXZG7ZkUJ_-3ZcrBuUQtbhg&usqp=CAU" alt="Nippo Battery" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Nippo Battery</h1> 
+                    <p>Nippo has been providing millions of its customers with a quality and performance that is second to none.</p> 
+                    <p>Replacing brands like <i>Duracell</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dabur Red Toothpaste -->
+              <div class="flip-card m-4 p-2">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUGAWuH62vaw-ZJas4WcpJdFq3QJBEKVRrJw&usqp=CAU" alt="Dabur Red Toothpaste" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back p-2">
+                    <h1 style="color: #5433d6;">Dabur Red Toothpaste</h1> 
+                    <p>There are several Indian brands which use Aayurvedic ingredients and comparatively less expensive. So, using such products is beneficial.</p> 
+                    <p>Replacing brands like <i>Pepsodent</i></p>
+                  </div>
+                </div>
+              </div>
+
+             </div>
 
      </section>
 
      
+     <!-- Contanct us Banner  -->
+     <div class="section-banner container-fluid mt-4 banner-shadow p-0" id="contact">
+        <img src="./Banners/5.png" style="height: min-content;width:100%;">
+    </div>
+
      <!-- Footer Section -->
-     <footer class="container mt-4 p-4">
+     <footer class="container mt-4 p-4" id="contact">
+         <h3>Contact Us</h3>
          <div class="d-inline-block">
             <img src="Hamara Utpaad.png" style="height: 30px;width:30px">
             <h4 class="d-inline">Hamara Utpaad</h4>

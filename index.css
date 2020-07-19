@@ -1,7 +1,7 @@
-::selection { background: #da1917; }
+::selection { background: #56ffff; color: black; }
 
 body{
-    background-image: linear-gradient(to right,	#0F2027,#203A43,#2C5364);
+    /* background-image: linear-gradient(to right,	#0F2027,#203A43,#2C5364); */
     color: #f09549;
    width: 100vw;
 }
@@ -20,86 +20,83 @@ body{
     padding: 2% 0 0 2%;
     font-size: x-large;
     font-style: oblique;
-    text-shadow: 4px 3px cornflowerblue;
+    /* text-shadow: 4px 3px cornflowerblue; */
     /* text-decoration: underline; */
-    color: white;
+    color: #5433d6;
     text-align: center;
 }
 
-.border-orange{
-    border: 2px solid #ff7452;
+
+.white-shadow:hover{
+    box-shadow: 1px 5px 12px 7px #fff;
 }
 
-.zoom-image{
-    overflow: hidden;
-}
+/* .banner-shadow{
+    box-shadow: 1px 10px 12px 7px #fddf31;
+    /* #171d81 */
+} */
 
-.section-shadow:hover{
-    border: 2px solid #89271a;
-    box-shadow: 1px 10px 12px 7px #89271a;
-}
-
-.zoom {
-    padding: 10px;
-    transition: transform .2s;
-    /* Animation */
-    /* width: 200px;
-    height: 200px; */
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    transform: scale(1.5);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-#home{
+#home-content{
     box-shadow: 1px 10px 12px 7px #000;
     margin-top: 7%;
 }
 
-#about,#indian{
+/* General Classes */
+.bg-blue{
     background-color: #041b39;
     background-image: linear-gradient(to right, #041b39,#22135d);
 }
 
-#info{
-    width:40%;
-}
-
-#info p{
-    text-align: center;
-}
-
 .rectangle-border{
-    border: 3px solid #ffe960;
+    border: 3px solid #59e8ff;
 }
 
 .rectangle-border:hover{
     
-    box-shadow: 1px 1px 6px 5px #ffe960;
+    box-shadow: 1px 1px 6px 5px #59e8ff;
 }
 
-#info-img{
-    height: 27em;
-    width: 50%;
-    border-radius: 25px;
-    background-image: url('./Hamara\ Utpaad.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px solid yellow;
-    
-}
 
-.divider{
-    width:3em;
-    height:0.2em;
-    background-color: white; 
-    justify-content: center;
-    margin: auto;
-}
 
-/* Indian Campaigns */
+/* Swadeshi Products */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #fff;
+    color: #f09549;
+    transform: rotateY(180deg);
+  }
 
 /* Footer */
 
